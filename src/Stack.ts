@@ -8,18 +8,18 @@
  */
 
 class Stack {
-  stack: number[] = []
+  stack: number[] = [];
 
   Push(pushedNumber: number): void {
-    this.stack.push(pushedNumber)
+    this.stack.push(pushedNumber);
   }
 
   ShowStack(): void {
-    console.log('The stack list.')
+    console.log("The stack list.");
     for (var Element of this.stack) {
-      console.log(this.stack)
+      console.log(this.stack);
     }
-    console.log('End of stack list')
+    console.log("End of stack list");
   }
 }
-export = Stack
+export = Stack;
